@@ -77,4 +77,11 @@ public class Integer {
         }
         return null;
     }
+
+    @Override
+    public String toString() {
+        return "Integer{" +
+                "number=" + number +
+                '}';
+    }
 }
